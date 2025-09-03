@@ -42,7 +42,7 @@ const projects: Project[] = [
 const Projects: React.FC = () => {
 	return (
 		<div className="container projects">
-			<h2>Проекты</h2>
+			<h2>Projects</h2>
 			<div className="grid">
 				{projects.map((p) => (
 					<a key={p.name} href={p.url} className="card" target="_blank" rel="noreferrer">

@@ -3,16 +3,7 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <div className="container about">
-      <h2>About me</h2>
-      <p>
-        Experience in backend and frontend development. I'm interested in DevOps
-        and AI. I'm currently working as a Full‑stack developer at{" "}
-        <a href="https://aifc.kz">AIFC</a>. I'm also interested in Django,
-        Python, NestJS, NextJS,React, TypeScript, Node.js, design systems and
-        performance. I'm a quick learner and I'm always looking for new
-        challenges.
-      </p>
-      {/* Tags grid */}
+      <h2>Tech Stack</h2>
       <div className="tags-grid">
         <section>
           <h3>Languages:</h3>

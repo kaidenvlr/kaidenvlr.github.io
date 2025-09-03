@@ -20,7 +20,7 @@ const projects: Project[] = [
 	{
 		name: 'Randomfacts',
 		description: 'Backend for the random facts app, with Celery Beat and Redis',
-		url: 'https://randomfacts.kz'
+		url: 'https://github.com/kaidenvlr/randomfacts'
 	},
 	{
 		name: 'Task Tracker CLI',
@@ -30,7 +30,7 @@ const projects: Project[] = [
 	{
 		name: 'Java JWT Auth',
 		description: 'JWT Auth for Java, with Spring Boot and Spring Security',
-		url: 'https://github.com/kaidenvlr/java-jwt-auth'
+		url: 'https://github.com/kaidenvlr/java_jwt'
 	},
 	{
 		name: 'Go Auth Service',

@@ -1,25 +1,19 @@
-# Портфолио — React + TypeScript + Vite
-
-## Локальная разработка
+# Portfolio
+## local development
 
 ```bash
 npm i
 npm run dev
 ```
 
-Откройте `http://localhost:5173`.
 
-## Продакшен сборка
+## prod
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Деплой на GitHub Pages
+## deployment
 
-Настроен workflow `.github/workflows/deploy.yml` на ветку `master`. После пуша:
-- Проект собирается и загружается как артефакт Pages
-- Выполняется деплой через `actions/deploy-pages`
-
-Если используете собственный домен, положите файл `CNAME` в корень — он копируется в `dist` на `postbuild`.
+workflow for github actions in `.github/workflows/deploy.yml`
